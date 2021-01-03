@@ -1,4 +1,4 @@
-CC = $(CROSS_COMPILE)gcc
+CC = gcc
 RM = rm
 
 CFLAGS = -O2 -Wall -c -fPIC
@@ -16,9 +16,8 @@ INCLUDES = \
 	-I$(API_DIR)/core/inc \
 	-I$(ROOT_DIR)/platform/inc
 
-# TODO: python 2.7?
 PYTHON_INCLUDES = \
-    -I/usr/include/python2.7
+    -I/usr/include/python3.6
 
 VPATH = \
 	$(API_DIR)/core/src \

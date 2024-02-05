@@ -7,7 +7,7 @@ from .VL53L0X import \
     Vl53l0xInterruptPolarity
 
 
-__version__ = '0.0.1'
+__version__ = '1.0.0'
 
 
 __all__ = [

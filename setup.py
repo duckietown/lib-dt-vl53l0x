@@ -2,7 +2,7 @@ from setuptools import setup
 
 POSTFIX = ''
 
-version = '0.0.1'
+version = '1.0.0'
 
 description = """
 dt_vl53l0x: Python bindings for the VL53L0X library
